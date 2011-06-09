@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent">
+
+	<ImageView android:layout_height="wrap_content"
+	android:src="@drawable/icon" android:layout_gravity="left"
+	android:paddingTop="1dip"
+	android:paddingBottom="20dip"
+	android:layout_width="wrap_content" 
+	android:id="@+id/imageView_conversation_contact_icon"
+	android:layout_alignParentLeft="true"></ImageView>
+	<TextView android:textSize="20sp"
+	android:layout_height="wrap_content"
+	android:id="@+id/textView_conversation_display_name"
+	android:text="Eric Larsen" android:gravity="left"
+	android:paddingBottom="10dip"
+	android:paddingTop="10dip"
+	android:paddingLeft="5dip"
+	android:layout_toRightOf="@+id/imageView_conversation_contact_icon"
+	android:layout_width="wrap_content"></TextView>
+	<TextView 
+	android:layout_height="wrap_content" 
+	android:id="@+id/textView_conversation_number"
+	android:text="90005000" 
+	android:paddingLeft="15dip"
+	android:layout_below="@+id/textView_conversation_display_name"
+	android:layout_alignLeft="@+id/textView_conversation_display_name"
+	android:layout_width="wrap_content"></TextView>
+	<Button 
+	android:id="@+id/button_conversation_more_info" 
+	android:layout_width="wrap_content" android:text="More info" 
+	android:layout_alignParentRight="true" 
+	android:layout_height="70dip"></Button>
+	<ListView 
+	android:layout_width="fill_parent"
+	android:smoothScrollbar="true"
+	android:id="@id/android:list"
+	android:layout_below="@+id/imageView_conversation_contact_icon" 
+	android:footerDividersEnabled="false" android:layout_height="135dip"
+	></ListView>
+	<RelativeLayout 
+	android:layout_width="wrap_content" 
+	android:id="@+id/linearLayout_bottom"
+	android:layout_alignParentBottom="true" 
+	android:layout_height="70dip"
+	android:background="#000000">
+		<EditText android:hint="Write new message" 
+		android:id="@+id/editText_conversation_new_message" 
+		android:layout_height="fill_parent"
+		android:layout_alignParentLeft="true" android:layout_width="400dip"></EditText>
+		<Button
+		android:id="@+id/button_conversation_send" 
+		android:text="@string/send_signcrypted" 
+		android:layout_height="fill_parent" 
+		android:layout_alignParentRight="true" android:layout_width="120dip"></Button>
+	</RelativeLayout>
+</RelativeLayout>

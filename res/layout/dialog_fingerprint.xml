@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dip"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginBottom="10dip"
+    android:text="Compare the finger print with your contact. 
+    If fingerprint values on both sides are the same, you can be sure it is genuine."
+    android:id="@+id/textView_manage_public_keys_heading"/>
+<TextView 
+android:layout_width="wrap_content" 
+android:id="@+id/textView_manage_public_keys_fingerprint_value" 
+android:layout_height="wrap_content"
+android:layout_marginBottom="20dip"
+android:text="Fingerprint:"></TextView>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:gravity="center">
+    <Button android:id="@+id/ok_button" android:layout_height="wrap_content" android:layout_width="100dip" android:text="@string/verify"></Button>
+    <Button android:text="@string/cancel" android:id="@+id/button_cancel" android:layout_height="wrap_content" android:layout_width="100dip"></Button>
+</LinearLayout>
+</LinearLayout>

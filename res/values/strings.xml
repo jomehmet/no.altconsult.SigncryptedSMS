@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">SigncryptedSMS</string>
+    <string name="button_pick_contact">Select Contact</string>
+    <string name="button_add_contact">Add to Contacts</string>
+    <string name="activity_select_contact">Select Contact</string>
+    <string name="activity_share_public_key">Share Pu Key</string>
+    <string name="activity_manage_public_keys">Manage Pu Keys</string>
+    <string name="activity_change_private_key_password">Pk Password</string>
+    <string name="activity_conversation">Conversation</string>
+    <string name="more_options">More Options</string>
+    <string name="type_old_password">Type Old Password</string>
+    <string name="type_password">Type Private Key Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="encrypt">Encrypt Private Key</string>
+    <string name="start_verifying">Start Verifying</string>
+    <string name="pending">Pending</string>
+    <string name="verified">Verified</string>
+    <string name="more_info">More info</string>
+    <string name="import_from_text">Import from text</string>
+    <string name="import_from_QR_code">Import from QR code</string>
+    <string name="send_normal">Send normal</string>
+    <string name="send_signcrypted">Send Signcrypted</string>
+    <string name="contact_has_no_phone_number">Contact is not listed with a phone number</string>
+    <string name="verify">Verify</string>
+    <string name="my_fingerprint">My fingerprint</string>
+    <string name="more_info_description_have_public_key">You have a verified Public Key of the contact and can send secure messages.</string>
+    <string name="more_info_description_no_public_key">You do not have the Public key of the contact, please ask your contact to send it for secure communication.</string>
+    <string name="app_description">Make encrypted and signed SMS messaging with Top Secret classification.</string>
+</resources>

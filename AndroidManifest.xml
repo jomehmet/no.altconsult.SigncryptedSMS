@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="no.altconsult.SigncryptedSMS"
+      android:installLocation="auto" android:versionCode="2" android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+    
+    <application 
+    android:label="@string/app_name" 
+    android:icon="@drawable/logo" 
+    android:description="@string/app_description">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SharePublicKeyActivity" android:label="@string/activity_share_public_key" />
+        <activity android:name=".ManagePublicKeysList" android:label="@string/activity_manage_public_keys" />
+        <activity android:name=".ChangePrivateKeyPasswordActivity" android:label="@string/activity_change_private_key_password" />
+        <activity android:name=".ConversationActivity" android:label="@string/activity_conversation" />
+        <activity android:name=".TypePrivateKeyPasswordActivity" android:label="@string/type_password" />
+        <activity android:name=".ConversationListActivity" />
+       	
+       	<receiver android:name=".SmsReceiver"> 
+            <intent-filter> 
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" /> 
+            </intent-filter> 
+        </receiver>
+    </application>
+</manifest>

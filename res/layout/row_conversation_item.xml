@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:footerDividersEnabled="false"
+	>
+    <LinearLayout 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/linearLayout_conversation_top" 
+    android:orientation="vertical"
+   	android:paddingLeft="9dip"
+	android:paddingRight="9dip"
+	android:paddingTop="9dip">
+        <TextView 
+	    android:background="@drawable/conversation_green_top"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:textSize="10sp" 
+	    android:textColor="#000000"
+	    android:layout_height="wrap_content" 
+	    android:text="Message is has valid signcryption 01.01.2011 23:59:14" 
+	    android:id="@+id/textView_conversation_item_top" android:layout_width="fill_parent"></TextView>
+	    <TextView 
+	    android:background="@drawable/conversation_in_body"
+	    android:gravity="left"
+	    android:paddingTop="3dip"
+	    android:paddingLeft="14dip"
+	    android:paddingRight="14dip"
+	    android:textSize="14sp" 
+	    android:textColor="#000000"
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/textView_conversation_item_body" 
+	    android:text="Hello!\n\nHow are you!! Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla" 
+	    android:layout_width="fill_parent"
+	    ></TextView>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/linearLayout_conversation_bottom">
+        <TextView  
+        android:textSize="10sp"
+        android:paddingRight="20dip"
+        android:textColor="#000000" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="right" android:text="00:03, 02 Jan" 
+        android:background="@drawable/conversation_in_bottom" 
+        android:id="@+id/textView_conversation_item_bottom"></TextView>
+    </LinearLayout>
+</LinearLayout>

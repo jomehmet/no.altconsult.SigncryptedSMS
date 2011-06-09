@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="D:/mastern/workspace/libs/bcprov-jdk15-146.jar" sourcepath="D:/mastern/workspace/libs/bcprov-jdk15-146.java.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/mastern/workspace/libs/bcprov-jdk15-146.src.zip!/bcprov-jdk15-146/docs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mastern/workspace2/libs/no.altconsult.signcryption.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

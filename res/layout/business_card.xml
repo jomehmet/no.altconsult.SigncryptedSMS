@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView 
+    android:id="@+id/phone_number_text_view"
+    android:text="nummer"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pick_contact_button"
+    android:layout_alignRight="@+id/pick_contact_button"
+    android:layout_width="fill_parent" android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    ></TextView>
+    <TextView android:id="@+id/display_name_text_view" android:text="navn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/phone_number_text_view" android:layout_alignLeft="@+id/phone_number_text_view" android:layout_alignRight="@+id/phone_number_text_view" android:gravity="center"></TextView>
+    <Button android:text="Pick contact" android:id="@+id/pick_contact_button" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_width="fill_parent"></Button>
+</RelativeLayout>
